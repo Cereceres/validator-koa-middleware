@@ -1,0 +1,28 @@
+{
+  "name": "validator-koa-middleware",
+  "version": "0.0.1",
+  "description": "koa request validator using joi schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/validator-koa-middleware.git"
+  },
+  "keywords": [
+    "koa",
+    "validator",
+    "joi",
+    "middleware"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/validator-koa-middleware/issues"
+  },
+  "homepage": "https://github.com/Cereceres/validator-koa-middleware#readme",
+  "dependencies": {
+    "joi": "^13.3.0"
+  }
+}
