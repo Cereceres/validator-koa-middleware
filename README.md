@@ -11,18 +11,6 @@ const schema = joi.object().keys({
     params: joi.object(),
     query: joi.object()
 });
-
-const ctx = {
-    request :{
-        body:{
-            key: 'string'
-        },
-        params:{},
-        query:{}
-    },
-    response: {
-    }
-};
 const middleware = validater(schema);
 ```
 
