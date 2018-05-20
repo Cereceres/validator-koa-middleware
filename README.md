@@ -15,3 +15,6 @@ const middleware = validater(schema);
 ```
 
 # validator(joiSchema) -> koaMiddleware
+# validator.body(joiSchemaForBody) -> koaMiddleware
+# validator.params(joiSchemaForParams) -> koaMiddleware
+# validator.query(joiSchemaForQuery) -> koaMiddleware

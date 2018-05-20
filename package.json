@@ -1,6 +1,6 @@
 {
   "name": "validator-koa-middleware",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "koa request validator using joi schema",
   "main": "index.js",
   "scripts": {
